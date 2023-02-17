@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revolut</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="adict/adict.css">
+    <link rel="stylesheet" href="adict/intlTelInput.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <img class="header__logo-img" src="images/logo.svg.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="promo">
+            <div class="promo__wrapper">
+                <div class="promo__img">
+                    <img class="promo__img-link" src="images/promo.webp.png" alt="">
+
+                </div>
+
+
+                <div class="container">
+                    <div id="feedback" class="promo__content">
+                        <div class="promo__text">
+                            <h1 class="promo__title">
+                                Зарабатывайте пассивно до <br> 1700€ ежедневно
+                            </h1>
+
+                            <p class="promo__description">
+                                От простого управления до лучшего сервиса для инвестиций
+                            </p>
+                            <p class="promo__description">
+                                Открой свой счет в мгновение ока
+                            </p>
+                        </div>
+
+                        <div class="promo__feedback">
+                            <form class="promo__form form" action="api.php" method="post" id="form">
+                                <input class="promo__input" name="f_name" placeholder="Ваше имя" type="text">
+                                <input class="promo__input" name="l_name" placeholder="Ваша фамилия" type="text">
+                                <input class="promo__input" name="email" placeholder="Ваш email" type="email">
+                                <input class="promo__input" name="phone" placeholder="" type="tel">
+
+                                <button class="promo__form-btn button" type="submit">Получить предложение</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info">
+            <div class="container">
+                <div class="info__head">
+                    <p class="info__overhead">
+                        Возможности каждый день!
+                    </p>
+
+                    <h4 class="info__title">
+                        Зарабатывай в любой точке мира
+                    </h4>
+
+                    <p class="info__description">
+                        Делайте повседневные траты проще простого, ведь все деньги собраны в одном месте
+                    </p>
+                </div>
+
+                <div class="info__content">
+                    <div class="info__item">
+                        <div class="info__text">
+                            <h5 class="info__item-title">
+                                Путешествуйте спокойно с <span><img src="images/rev.png" alt="revolut"></span>
+                            </h5>
+
+                            <p class="info__item-description">
+                                Не допустите чтобы финансы ограничили ваши путешествия. Откройте для себя новый уровень
+                                свободы
+                            </p>
+
+                            <button class="info__item-btn _link" value="feedback"> <span>Погрузитесь в мир финансовой свободы</span>
+                                <span><svg width="21" height="18" viewBox="0 0 21 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_31)">
+                                            <path d="M1.56827 9.45312H19.463" stroke="white" stroke-width="1.78947"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.5156 1.8479L19.463 9.45316L10.5156 17.0584" stroke="white"
+                                                stroke-width="1.78947" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_31">
+                                                <rect width="19.6842" height="17" fill="white"
+                                                    transform="translate(0.673523 0.953125)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span> </button>
+                        </div>
+
+                        <div class="info__img">
+                            <img class="info__img-link" src="images/card_1.webp.png" alt="">
+                        </div>
+                    </div>
+                    <div class="info__item-two">
+                        <div class="info__img">
+                            <img class="info__img-link" src="images/card_2.webp.png" alt="">
+                        </div>
+
+                        <div class="info__text">
+                            <h5 class="info__item-title">
+                                10 сделок с акциями без комиссии каждый месяц
+                            </h5>
+
+                            <p class="info__item-description">
+                                Повысьте уровень инвестиций, совершая ежемесячно 10 сделок без комиссии (могут взиматься
+                                другие комиссии). инвестируйте всего от 25-€ в глобальноые компании, от Apple до Amazon.
+                                Показаные результаты являются ориентировачными
+                            </p>
+
+                            <button class="info__item-btn _link" value="feedback"> <span>Попробуйте сейчас</span> <span><svg width="21"
+                                        height="18" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_63)">
+                                            <path d="M1.25574 8.90625H19.1505" stroke="white" stroke-width="1.78947"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.2031 1.30103L19.1505 8.90629L10.2031 16.5116" stroke="white"
+                                                stroke-width="1.78947" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_63">
+                                                <rect width="19.6842" height="17" fill="white"
+                                                    transform="translate(0.361023 0.40625)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span></button>
+                        </div>
+                    </div>
+
+                    <div class="info__item-three info__item">
+                        <div class="info__text">
+                            <h5 class="info__item-title">
+                                Время взять финансы под контроль. Время <span><img src="images/rev.png"
+                                        alt="revolut"></span>
+                            </h5>
+
+                            <p class="info__item-description">
+                                Инвестирование в Revolut - это возможность оптимизировать свои финансы, получить доступ
+                                к новым рынкам и прибыльным инвестициям, а также всегда оставаться в курсе последних
+                                тенденций в мире финансов. Клиенты Revolut получают доступ к широкой линейке валют,
+                                включая криптовалюты, возможность покупать/продавать акции/ETF используя финансовые
+                                рекомендации наших экспертов
+                            </p>
+
+                            <button class="info__item-btn _link" value="feedback"> <span>Получить предложение</span>
+                                <span><svg width="21" height="18" viewBox="0 0 21 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_31)">
+                                            <path d="M1.56827 9.45312H19.463" stroke="white" stroke-width="1.78947"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.5156 1.8479L19.463 9.45316L10.5156 17.0584" stroke="white"
+                                                stroke-width="1.78947" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_31">
+                                                <rect width="19.6842" height="17" fill="white"
+                                                    transform="translate(0.673523 0.953125)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span> </button>
+                        </div>
+
+                        <div class="info__img">
+                            <img class="info__img-link" src="images/card_3.webp.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="info__head info__head-two">
+                        <h4 class="info__title">
+                            Инвестиции всего от 250€
+                        </h4>
+
+                        <p class="info__description">
+                            Создай портфель, и начни торговать в несколько кликов
+                        </p>
+                    </div>
+
+                    <div class="info__item info__item-four">
+                        <div class="info__text">
+                            <h5 class="info__item-title">
+                                Мгновенный переход от наличных к криптовалюте
+                            </h5>
+
+                            <p class="info__item-description">
+                                Торговля криптовалютами через Revolut предлагает пользователям удобство, доступ к
+                                широкому спектру криптовалют, низкие комисси, повышенную безопасность и простоту
+                                отслеживания
+                            </p>
+
+                            <button class="info__item-btn _link" value="feedback"> <span>Узнать больше</span>
+                                <span><svg width="21" height="18" viewBox="0 0 21 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_31)">
+                                            <path d="M1.56827 9.45312H19.463" stroke="white" stroke-width="1.78947"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.5156 1.8479L19.463 9.45316L10.5156 17.0584" stroke="white"
+                                                stroke-width="1.78947" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_31">
+                                                <rect width="19.6842" height="17" fill="white"
+                                                    transform="translate(0.673523 0.953125)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span> </button>
+                        </div>
+
+                        <div class="info__img">
+                            <img class="info__img-link" src="images/card_4.webp.png" alt="">
+                        </div>
+                    </div>
+                    <div class="info__item info__item-five">
+                        <div class="info__text">
+                            <h5 class="info__item-title">
+                                Управляйте валютным рынком с фиксироваными будущими ставками
+                            </h5>
+
+                            <p class="info__item-description">
+                                Получите отличные фиксированные курсы FX на определенную сумму и дату в будущем, чтобы
+                                вы точно знали, что получите. Мы взимаем фиксированную комиссию 0,6% за все будущие
+                                обмены для клиентов из ЕС по тарифными планами компании
+                            </p>
+
+                            <button class="info__item-btn _link" value="feedback"> <span>Открыть мир торговли</span>
+                                <span><svg width="21" height="18" viewBox="0 0 21 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1_31)">
+                                            <path d="M1.56827 9.45312H19.463" stroke="white" stroke-width="1.78947"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M10.5156 1.8479L19.463 9.45316L10.5156 17.0584" stroke="white"
+                                                stroke-width="1.78947" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1_31">
+                                                <rect width="19.6842" height="17" fill="white"
+                                                    transform="translate(0.673523 0.953125)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span> </button>
+                        </div>
+
+                        <div class="info__img">
+                            <img class="info__img-link" src="images/card_5.webp.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="coments">
+            <div class="container">
+                <div class="coments__head">
+                    <h4 class="coments__title">
+                        Вот что говорят наши клиенты
+                    </h4>
+                </div>
+
+                <div class="coments__content">
+                    <div class="coments__item">
+                        <div class="coments__img">
+                            <img class="coments__img-link" src="images/card_6.webp.png" alt="">
+                        </div>
+
+                        <div class="coments__info">
+                            <img class="coments__info-icon" src="images/rhodes.svg.svg" alt="">
+
+                            <p class="coments__text">
+                                «По сравнению с обычными банками мы зарабатываем на 35% больше на наших зарубежных
+                                транзакциях»
+                            </p>
+
+                            <p class="coments__desciprion">
+                                Тим Доусон, финансовый директор
+                            </p>
+                        </div>
+                    </div>
+                    <div class="coments__item">
+                        <div class="coments__info">
+                            <img class="coments__info-icon" src="images/dpoint.svg.svg" alt="">
+
+                            <p class="coments__text">
+                                «Мы управляем несколькими валютами, отслеживаем платежи и платим нашей команде с помощью
+                                одной простой панели инструментов. Это значительно экономит время»
+                            </p>
+
+                            <p class="coments__desciprion">
+                                Джонатан Муял Бухгалтер Великобритании и менеджер по расчету заработной платы EOR • Deel
+                            </p>
+                        </div>
+
+                        <div class="coments__img">
+                            <img class="coments__img-link" src="images/card_7.webp.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="plan">
+            <div class="container">
+                <div class="plan__head">
+                    <h4 class="plan__title">
+                        Выберите свой финансовый план
+                    </h4>
+                </div>
+
+                <div class="plan__content">
+                    <div class="plan__item">
+                        <h6 class="plan__item-title">
+                            Standard
+                        </h6>
+
+                        <p class="plan__num">
+                            250€
+                        </p>
+
+                        <p class="plan__text">
+                            Получайте больше от своих денег каждый день по цене меньше, чем стоимость нескольких чашек
+                            кофе
+                        </p>
+
+                        <p class="plan__description">
+                            До 2627€ за 6 месяцев!
+                        </p>
+                    </div>
+                    <div class="plan__item">
+                        <h6 class="plan__item-title">
+                            Plus
+                        </h6>
+
+                        <p class="plan__num">
+                            1000€
+                        </p>
+
+                        <p class="plan__text">
+                            Измените свои финансы до неузнаваемости. Получите функции, которые помогут вам тратить и инвестировать разумнее, чем когда-либо
+                        </p>
+
+                        <p class="plan__description">
+                            До 10510€ за 6 месяцев!
+                        </p>
+                    </div>
+                    <div class="plan__item">
+                        <h6 class="plan__item-title">
+                            Premium
+                        </h6>
+
+                        <p class="plan__num">
+                            5000€
+                        </p>
+
+                        <p class="plan__text">
+                            Разблокриуй свой денежный потенциал. Заставьте ваши деньги работать на вас с ежедневными выплатами до 2,5% на ваши сбережения
+                        </p>
+
+                        <p class="plan__description">
+                            До 21350€ за 6 месяцев!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="container">
+                <div class="offer__content">
+                    <div class="offer__overhead">
+                        <p>
+                            Чего же ты ждешь?
+                        </p>
+                    </div>
+
+                    <div class="offer__title">
+                        <h4>
+                            Получите финансовое предложение которое изменит вашу жизнь!
+                        </h4>
+                    </div>
+
+                    <div class="offer__btn">
+                        <button class="offer__button _link" value="feedback">Получить предложение</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <button class="footer__btn">
+                    Политика конфиденциальности
+                </button>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/main.min.js"></script>
+    <script src="adict/adict.js"></script>
+    <script src="adict/intlTelInput.js"></script>
+    <script src="adict/utils.js"></script>
+</body>
+
+</html>
